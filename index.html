@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zankli Medical Centre</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'zankli-orange': {
+                '50': '#fff4ec',
+                '100': '#ffe8d7',
+                '200': '#ffd1b0',
+                '300': '#ffb37e',
+                '400': '#ff8a47',
+                '500': '#ff6b1b',
+                '600': '#f0540f',
+                '700': '#c8410c',
+                '800': '#a1330f',
+                '900': '#822b10',
+                '950': '#461305',
+              },
+              'zankli-cream': {
+                '50': '#fefcf7',
+                '100': '#fcf7ed',
+                '200': '#f8ebda',
+                '300': '#f2dcc0',
+                '400': '#e9c69d',
+                '500': '#e0b07d',
+                '600': '#d19860',
+                '700': '#af7a4f',
+                '800': '#8d6245',
+                '900': '#72503d',
+                '950': '#3e291e',
+              },
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.548.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "pdfjs-dist/": "https://aistudiocdn.com/pdfjs-dist@^5.4.296/",
+    "jspdf": "https://aistudiocdn.com/jspdf@^2.5.1",
+    "html2canvas": "https://aistudiocdn.com/html2canvas@^1.4.1",
+    "pdfjs-dist": "https://aistudiocdn.com/pdfjs-dist@^5.4.296",
+    "@supabase/supabase-js": "https://esm.sh/@supabase/supabase-js@2"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

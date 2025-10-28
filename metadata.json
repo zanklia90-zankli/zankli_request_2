@@ -1,0 +1,5 @@
+{
+  "name": "Copy of Zankli Medical Centre - Internal Portal",
+  "description": "An internal portal for Zankli Medical Centre to manage diesel requisitions, product procurement, leave requests, and general item requests with a multi-step approval workflow and PDF annotation capabilities.",
+  "requestFramePermissions": []
+}
